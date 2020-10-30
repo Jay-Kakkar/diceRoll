@@ -8,7 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import kotlin.random.Random
 import kotlin.random.Random.Default.nextInt
-
+//commit 1
 class MainActivity : AppCompatActivity() {
     lateinit var imageView: ImageView;
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollButton() {
         val randomInt = Random.nextInt(1, 7)
-
+////commit 4
 
         val drawableDice = when (randomInt) {
             1 -> R.drawable.dice_1

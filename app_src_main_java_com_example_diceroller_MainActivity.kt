@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+//commit 2
         val diceRollButton: Button = findViewById(R.id.button);
         diceRollButton.setText("Let's Roll");
         diceRollButton.setOnClickListener {
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollButton() {
         val randomInt = Random.nextInt(1, 7)
-
+////commit 4
 
         val drawableDice = when (randomInt) {
             1 -> R.drawable.dice_1
